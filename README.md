@@ -8,7 +8,7 @@ This project analyzes population risk across countries using fertility rates, de
 
 ## Methodology
 1. **Data Cleaning & Normalization**: Loaded the population data, handled missing values, and normalized key factors (fertility, dependency, migration) for comparability.
-2. **Population Risk Score**: Calculated a combined risk score using:
+2. **Population Risk Score**: Calculated a combined risk score using: population_risk_score = dependency_norm + (1 - fertility_norm) + (1 - migration_norm)
 3. **SQL Analysis**: Queried the top 10 countries for each factor and risk category.
 4. **Visualizations**: Created bar charts for fertility, dependency, migration, and risk scores to highlight trends.
 5. **Regression Analysis**: Used a linear regression to understand the relative contribution of each factor to population risk. Dependency ratio and fertility are highly correlated, while migration provides independent insight.
