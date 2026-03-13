@@ -16,7 +16,7 @@ This project analyzes population risk across countries using fertility rates, de
 ## Key Takeaways
 
 - High-risk countries are mostly in Africa and parts of Asia, often with high dependency ratios.
-- Low fertility (below replacement level) affects 121 countries, indicating potential population decline.
+- Low fertility (below replacement level of 2.1) affects 121 countries, indicating potential population decline.
 - Negative net migration occurs in ~130 countries, contributing to population risk.
 - Dependency ratio and fertility are strongly correlated, both contributing to risk. Migration adds independent insight.
 - Overall, countries with high dependency, low fertility, and negative migration face the greatest population challenges.
